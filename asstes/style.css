@@ -17,46 +17,46 @@ section {
     margin-bottom: 70px;
 }
 
-.half-width {
+.all-content {
     width: 50%;
     padding-left: 2%;
 
 }
 
-.half-width img {
+.all-content img {
     width: 90%;
 }
 
-.banner-section .half-width h1 {
+.banner-section .all-content h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.banner-section .half-width h2 {
+.banner-section .all-content h2 {
     font-size: 50px;
     margin-bottom: 40px;
 }
 
-.banner-section .half-width h3 {
+.banner-section .all-content h3 {
     margin-bottom: 20px;
 }
 
-.banner-section .half-width .heading-style {
+.banner-section .all-content .heading-style {
     color: orange;
 }
 
-.banner-section .half-width p {
+.banner-section .all-content p {
     color: dimgray;
     margin-bottom: 10px;
     max-width: 490px;
 }
 
-.banner-section .content {
+.banner-section .new-content {
     margin-left: 5%;
 }
 
-.banner-section .half-width .btn a {
+.banner-section .all-content .btn a {
     text-decoration: none;
     color: white;
     padding: 10px 40px;
@@ -66,3 +66,27 @@ section {
     font-weight: 700;
     display: inline-block;
 }
+
+/* ----------------------middile-section---------------------- */
+.middile-section {
+    background-image: url(../asstes/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner-section .all-content .btn-submit a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    background: linear-gradient(lightsalmon, tomato);
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.banner-section .all-content .max-width {
+    max-width: 540px;
+}
+
+/* ---------------------- box-shedow-section-------------------- */
