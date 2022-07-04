@@ -90,6 +90,12 @@ section {
 }
 
 /* ---------------------- box-shedow-section-------------------- */
+.card-section {
+    background-image: url(../asstes/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .card-section .card-parrent {
     display: flex;
     padding: 2%;
@@ -112,13 +118,26 @@ section {
     border-left: 7px solid tomato;
     height: 400px;
     padding: 0px 10px;
+    margin-bottom: 40px;
 }
 
 .card-section .card-parrent .card .card-div {
     padding: 0px 20px;
+
 }
 
 .card-section h1 {
     font-size: 40px;
     margin-top: 20px;
+}
+
+/* ---------------------fotter-section------------------- */
+.fotter {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.fotter a {
+    text-decoration: none;
+    color: cadetblue;
 }
