@@ -90,3 +90,35 @@ section {
 }
 
 /* ---------------------- box-shedow-section-------------------- */
+.card-section .card-parrent {
+    display: flex;
+    padding: 2%;
+}
+
+.card-section .card-parrent .card h3 {
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color: orange;
+}
+
+.card-section .card-parrent #backgraund {
+    border-left: 7px solid blue;
+}
+
+.card-section .card-parrent .card {
+    width: 50%;
+    margin: 0 30px;
+    box-shadow: 5px 7px 40px gray;
+    border-left: 7px solid tomato;
+    height: 400px;
+    padding: 0px 10px;
+}
+
+.card-section .card-parrent .card .card-div {
+    padding: 0px 20px;
+}
+
+.card-section h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
